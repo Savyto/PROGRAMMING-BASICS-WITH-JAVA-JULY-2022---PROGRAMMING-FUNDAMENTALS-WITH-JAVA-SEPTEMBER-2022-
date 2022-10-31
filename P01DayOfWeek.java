@@ -20,6 +20,8 @@ public class P01DayOfWeek {
 
         if (n >= 1 && n <= 7) {
             System.out.println(dayOfWeekArr[n-1]);
+        } else {
+            System.out.println("Invalid day!");
         }
     }
 }
